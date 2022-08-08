@@ -7,7 +7,6 @@ import {
   TableCell,
   TableHead,
   TableRow,
-  Chip,
 } from "@mui/material";
 import BaseCard from "../baseCard/BaseCard";
 

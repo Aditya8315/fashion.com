@@ -3,10 +3,8 @@ import React from "react";
 import {
   Card,
   CardContent,
-  Divider,
   Box,
   Typography,
-  Chip,
 } from "@mui/material";
 
 const BaseCard = (props) => {
