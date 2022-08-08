@@ -15,7 +15,7 @@ const handler = async (req,res)=>{
         availableQty:req.body.availableQty
         })
        await p.save();
-       res.status(200).json({success:"success"});
+       res.status(200).json({success:"success",p:p});
     }
     else{
         res.status(400).json({error:"Invalid Method"});
